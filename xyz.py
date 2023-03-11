@@ -27,4 +27,5 @@ df = pd.DataFrame(data, columns=['Project_id','Project_name','distance','cluster
 df1 = df.loc[df.groupby('Project_id').distance.idxmin()] # Finding the row which has minimum distance grouping by project id
 df1.to_csv('mapped.csv')
 print(df1)
+print("shubham")
      
